@@ -1,0 +1,98 @@
+2024-04-07 21:23:38,942 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-04-07 21:23:38,942 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-07 21:23:38,950 - INFO -  * Restarting with stat
+2024-04-07 21:23:39,828 - WARNING -  * Debugger is active!
+2024-04-07 21:23:39,836 - INFO -  * Debugger PIN: 710-895-327
+2024-04-07 21:24:12,138 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-04-07 21:24:12,139 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-07 21:24:12,144 - INFO -  * Restarting with stat
+2024-04-07 21:24:12,891 - WARNING -  * Debugger is active!
+2024-04-07 21:24:12,896 - INFO -  * Debugger PIN: 710-895-327
+2024-04-07 21:25:03,174 - INFO -  * Detected change in 'C:\\Users\\PaulinaLopezSalazar\\Documents\\Universidad\\p2p2\\namenode\\src\\crons\\cron.py', reloading
+2024-04-07 21:25:40,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-04-07 21:25:40,577 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-07 21:25:40,581 - INFO -  * Restarting with stat
+2024-04-07 21:25:41,373 - WARNING -  * Debugger is active!
+2024-04-07 21:25:41,382 - INFO -  * Debugger PIN: 710-895-327
+2024-04-07 21:25:56,072 - INFO - 127.0.0.1 - - [07/Apr/2024 21:25:56] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:26:52,663 - INFO - 127.0.0.1 - - [07/Apr/2024 21:26:52] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:27:37,093 - INFO -  * Detected change in 'C:\\Users\\PaulinaLopezSalazar\\Documents\\Universidad\\p2p2\\namenode\\src\\database\\database.py', reloading
+2024-04-07 21:28:06,362 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-04-07 21:28:06,362 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-07 21:28:06,372 - INFO -  * Restarting with stat
+2024-04-07 21:28:07,080 - WARNING -  * Debugger is active!
+2024-04-07 21:28:07,088 - INFO -  * Debugger PIN: 710-895-327
+2024-04-07 21:28:11,271 - INFO - 127.0.0.1 - - [07/Apr/2024 21:28:11] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:28:17,039 - INFO - 127.0.0.1 - - [07/Apr/2024 21:28:17] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:28:26,902 - INFO - 127.0.0.1 - - [07/Apr/2024 21:28:26] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:28:31,722 - INFO - 127.0.0.1 - - [07/Apr/2024 21:28:31] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:29:06,318 - INFO - 127.0.0.1 - - [07/Apr/2024 21:29:06] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:29:23,365 - INFO - 127.0.0.1 - - [07/Apr/2024 21:29:23] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:30:31,820 - INFO - 127.0.0.1 - - [07/Apr/2024 21:30:31] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:31:11,417 - INFO - 127.0.0.1 - - [07/Apr/2024 21:31:11] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:31:19,403 - INFO - 127.0.0.1 - - [07/Apr/2024 21:31:19] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:31:45,363 - INFO - 127.0.0.1 - - [07/Apr/2024 21:31:45] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:31:54,343 - INFO - 127.0.0.1 - - [07/Apr/2024 21:31:54] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:32:03,691 - INFO - 127.0.0.1 - - [07/Apr/2024 21:32:03] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:32:12,269 - INFO - 127.0.0.1 - - [07/Apr/2024 21:32:12] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:32:22,389 - INFO - 127.0.0.1 - - [07/Apr/2024 21:32:22] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:32:30,917 - INFO - 127.0.0.1 - - [07/Apr/2024 21:32:30] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:33:11,643 - INFO - 127.0.0.1 - - [07/Apr/2024 21:33:11] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:33:26,346 - INFO - 127.0.0.1 - - [07/Apr/2024 21:33:26] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:34:14,051 - INFO - 127.0.0.1 - - [07/Apr/2024 21:34:14] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:34:36,538 - INFO - 127.0.0.1 - - [07/Apr/2024 21:34:36] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:34:48,017 - INFO - 127.0.0.1 - - [07/Apr/2024 21:34:48] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:35:03,778 - INFO -  * Detected change in 'C:\\Users\\PaulinaLopezSalazar\\Documents\\Universidad\\p2p2\\namenode\\src\\crons\\cron.py', reloading
+2024-04-07 21:35:37,551 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 661357db8ca1a179b2175044, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:37:07,633 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 661358358ca1a179b2175045, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:38:37,709 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6613588f8ca1a179b2175046, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:40:07,791 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 661358e98ca1a179b2175047, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:41:37,854 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 661359438ca1a179b2175048, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:43:07,963 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 6613599d8ca1a179b2175049, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:53:26,778 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-04-07 21:53:26,779 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-07 21:53:26,787 - INFO -  * Restarting with stat
+2024-04-07 21:53:27,623 - WARNING -  * Debugger is active!
+2024-04-07 21:53:27,629 - INFO -  * Debugger PIN: 710-895-327
+2024-04-07 21:53:42,627 - INFO - 127.0.0.1 - - [07/Apr/2024 21:53:42] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:54:06,306 - INFO - 127.0.0.1 - - [07/Apr/2024 21:54:06] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:54:13,585 - INFO - 127.0.0.1 - - [07/Apr/2024 21:54:13] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 21:54:19,956 - INFO -  * Detected change in 'C:\\Users\\PaulinaLopezSalazar\\Documents\\Universidad\\p2p2\\namenode\\src\\crons\\cron.py', reloading
+2024-04-07 21:54:57,700 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135c638bd16b9bf8f9450a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:56:27,758 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135cbd8bd16b9bf8f9450b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:57:57,831 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135d178bd16b9bf8f9450c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 21:59:27,927 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135d718bd16b9bf8f9450d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 22:00:58,004 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135dcb8bd16b9bf8f9450e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 22:02:28,096 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135e268bd16b9bf8f9450f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 22:03:58,152 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135e808bd16b9bf8f94510, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 22:05:28,232 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135eda8bd16b9bf8f94511, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 22:06:58,290 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135f348bd16b9bf8f94512, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 22:08:28,344 - ERROR - Error during cron job execution: No servers found yet, Timeout: 30s, Topology Description: <TopologyDescription id: 66135f8e8bd16b9bf8f94513, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>
+2024-04-07 22:15:50,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-04-07 22:15:50,354 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-07 22:15:50,365 - INFO -  * Restarting with stat
+2024-04-07 22:15:51,194 - WARNING -  * Debugger is active!
+2024-04-07 22:15:51,202 - INFO -  * Debugger PIN: 710-895-327
+2024-04-07 22:15:56,627 - INFO - 127.0.0.1 - - [07/Apr/2024 22:15:56] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:16:09,339 - INFO -  * Detected change in 'C:\\Users\\PaulinaLopezSalazar\\Documents\\Universidad\\p2p2\\namenode\\src\\crons\\cron.py', reloading
+2024-04-07 22:16:56,835 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2024-04-07 22:16:56,835 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-07 22:16:56,841 - INFO -  * Restarting with stat
+2024-04-07 22:16:57,627 - WARNING -  * Debugger is active!
+2024-04-07 22:16:57,633 - INFO -  * Debugger PIN: 710-895-327
+2024-04-07 22:17:02,548 - INFO - 127.0.0.1 - - [07/Apr/2024 22:17:02] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:17:08,318 - INFO - 127.0.0.1 - - [07/Apr/2024 22:17:08] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:22:25,762 - INFO - 127.0.0.1 - - [07/Apr/2024 22:22:25] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:22:35,555 - INFO - 127.0.0.1 - - [07/Apr/2024 22:22:35] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:29:24,058 - INFO - 127.0.0.1 - - [07/Apr/2024 22:29:24] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:29:33,699 - INFO - 127.0.0.1 - - [07/Apr/2024 22:29:33] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:30:16,380 - INFO - 127.0.0.1 - - [07/Apr/2024 22:30:16] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:30:28,731 - INFO - 127.0.0.1 - - [07/Apr/2024 22:30:28] "POST /search_files HTTP/1.1" 200 -
+2024-04-07 22:48:42,340 - INFO -  * Detected change in 'C:\\Users\\PaulinaLopezSalazar\\Documents\\Universidad\\p2p2\\namenode\\src\\replication_manager.py', reloading
