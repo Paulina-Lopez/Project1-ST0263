@@ -1,23 +1,22 @@
-from datetime import datetime, timedelta
-from src.database.database import connect
-from src.replication_manager import handle_replication
 import schedule
 import time
 import logging
+from datetime import datetime, timedelta
+from ..replication_manager import handle_replication
+from src.database.database import connect
 
-# Configura el logging para que puedas ver la salida en la consola y en un archivo
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', 
                     filename='namenode_cron.log', filemode='a')
 
 def job():
     now = datetime.now()
-    minute_ago = now - timedelta(minutes=1)
+    minute_ago = now - timedelta(seconds=30)
     client, collection = connect("node")
-    
     try:
-        query = {"status": True, "last_heartbeat": {"$lt": minute_ago}}
-        nodes_down = list(collection.find(query))
-        
+        query = {"status": True, "report_date": {"$lte": minute_ago}}
+        nodes_query = collection.find(query)
+        nodes_down = list(nodes_query)
+        print(nodes_down)
         if nodes_down:
             collection.update_many(query, {"$set": {"status": False}})
             for node_down in nodes_down:
@@ -25,9 +24,10 @@ def job():
                 logging.info(f"Replication triggered for node: {node_down['_id']}")
     
     except Exception as e:
-        logging.error(f"Error during cron job execution: {e}")
+        print(e)
     finally:
         client.close()
+        print("Cron executed")
 
 schedule.every().minute.do(job)
 

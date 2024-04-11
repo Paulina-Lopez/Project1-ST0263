@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, make_response, request
 from src.services.auth import client_login, client_signup
 from src.services.node import node_alive, create_node
 from src.services.files import add_file, search_files
-
+from ..replication_manager import handle_replication
 
 routes = Blueprint('routes', __name__)
 
@@ -26,10 +26,9 @@ def login():
 # Node Endpoints
 @routes.route('/node-on', methods=['POST'])
 def node_on ():
-    print('Node on')
-
     request_body = request.json
-    return node_alive(request_body.get('ip'), request_body.get('port'))
+    response = node_alive(request_body["ip"], request_body["port"])
+    return response
 
 @routes.route('/node-create', methods=['POST'])
 def node_create ():
@@ -50,3 +49,11 @@ def search_file_name():
     request_body = request.json
     files = search_files(request_body["file_name"]) 
     return make_response(jsonify({"files": files}), 200)
+
+
+
+@routes.route('/qq', methods=['POST'])
+def temp_rep():
+    request_body = request.json
+    data = handle_replication(request_body["id"]) 
+    return make_response(jsonify(data), 200)

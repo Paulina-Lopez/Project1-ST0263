@@ -8,14 +8,11 @@ import variables
 
 def job():
     url = 'http://localhost:5000/node-on'
-
     data = {
-        'ip': "000.000.000.000",
-        'port': "0"
+        'ip': variables.ip_grpc,
+        'port': variables.port_grpc
     }
-
-    response = requests.post(url, data=data)
-
+    response = requests.post(url, json=data)
     if response.status_code == 200:
         print("POST Success")
     else:

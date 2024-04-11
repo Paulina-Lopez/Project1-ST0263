@@ -65,7 +65,7 @@ def upload_file():
 @app.route('/download/<file_name>')
 def download_file(file_name):
     try:
-        joined_folder = os.path.join('joined_files')
+        joined_folder = app.config['JOINED_FOLDER']
         joined_file_path = join_files(file_name, joined_folder)
         return send_file(joined_file_path, as_attachment=True)
     except Exception as e:

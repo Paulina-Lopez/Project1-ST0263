@@ -43,9 +43,11 @@
                     </form>
                     <ul id="fileList" class="list-group mt-3">
                         {% for file in files %}
-                        <li class="list-group-item">{{ file }}
-                            <a href="{{ url_for('download_file', file_name=file) }}"
-                                class="btn btn-primary" style="margin-left: 350px;">Descargar</a>
+                        <li class="list-group-item">
+                            {{ file['name'] }}{{ file['extension'] }}
+                            <a href="{{ url_for('download_file', file_name=file['name']+file['extension']) }}"
+                                class="btn btn-primary" style="float: right;">Descargar</a>
+                        </li>
                         {% endfor %}
                     </ul>
                 </div>

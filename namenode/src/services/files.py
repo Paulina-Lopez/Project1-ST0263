@@ -55,9 +55,29 @@ def generate_save_rule(parts, nodes, prev_parts):
         grup2 = parts - grup1
         total_nodes = len(nodes)
 
-        if total_nodes <= 3:
-            pass
-        if total_nodes == 4:
+        if total_nodes >= 2 and total_nodes <= 3:
+            total_rack.append({
+                "rack_name": "rack_1",
+                "nodes": [str(nodes[0]["_id"])]
+            })
+            total_rack.append({
+                "rack_name": "rack_2",
+                "nodes": [str(nodes[1]["_id"])]
+            })
+            while count < parts:
+                for pp in prev_parts:
+                    if count < grup1:
+                        final_parts.append({
+                            "file_name": pp,
+                            "node": str(nodes[0]["_id"])
+                        })
+                    else:
+                        final_parts.append({
+                            "file_name": pp,
+                            "node": str(nodes[1]["_id"])
+                        })
+                    count += 1
+        if total_nodes >= 4:
             total_rack.append({
                 "rack_name": "rack_1",
                 "nodes": [str(nodes[0]["_id"]), str(nodes[2]["_id"])]
@@ -95,27 +115,14 @@ def generate_save_rule(parts, nodes, prev_parts):
 def search_files(file_name):
     client, collection = connect("files")
     try:
-        results = collection.find({"filename": {"$regex": file_name, "$options": "i"}})
-        files = [result["filename"] for result in results]
+        results = collection.find({"filename": {"$regex": file_name, "$options": "i"}}, {"filename": 1, "file_extension": 1})
+        files = [{"name": result["filename"], "extension": result["file_extension"]} for result in results]
         return files
     except Exception as e:
         print(e)
         return []
     finally:
         client.close()
-
-def update_file(file_name, parts):
-    client, collection = connect("files")
-    response = { "message": "Node not found", "status": False }
-    query = { "filename": file_name }
-    try:
-        collection.find_one_and_update(query, { "$set": { "parts": parts}})
-    except Exception as e:
-        response = { "message": e, "status": False } 
-
-    client.close()
-    return response
-
 
 def update_file(file_name, parts):
     client, collection = connect("files")
